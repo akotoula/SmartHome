@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Home&amp;Fitness</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_smartplug_list">SmartPlugs</string>
+    <string name="title_smartplug_detail">SmartPlug Detail</string>
+    <string name="title_activity_smart_plugs_list">SmartPlugs List</string>
+    <string name="title_activity_smart_plug_details">SmartPlug Details</string>
+    <string name="title_activity_diagram">DiagramActivity</string>
+    <string name="sharedPreferencesFilename">prefs</string>
+    <string name="title_activity_health_and_fitness_home">Health And Fitness</string>
+
+
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_health_and_fitness_details">Health And Fitness</string>
+
+    <string name="title_section1">Sleep</string>
+    <string name="title_section2">Activity</string>
+    <string name="title_section3">Heart rate</string>
+    <string name="title_activity_sleep_chart">SleepChart</string>
+    <string name="title_activity_steps_chart">StepsChart</string>
+
+
+</resources>

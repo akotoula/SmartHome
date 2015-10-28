@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Add new SmartPlug : "
+                android:id="@+id/newSmartplugLabel"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name : "
+                android:id="@+id/nameTextView"
+                android:layout_below="@id/newSmartplugLabel"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameTextView"
+                android:ems="10"
+                android:id="@+id/nameText"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appliance : "
+                android:id="@+id/applianceTextView"
+                android:layout_below="@id/nameText"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/applianceText"
+                android:layout_below="@id/applianceTextView"
+                android:ems="20"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location : "
+                android:id="@+id/locationTextView"
+                android:layout_below="@id/applianceText"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/locationText"
+                android:layout_below="@id/locationTextView"
+                android:inputType="textMultiLine"
+                android:ems="20"
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
